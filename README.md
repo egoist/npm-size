@@ -22,7 +22,7 @@ npx npm-size [...package names]
 # Examples
 npx npm-size webpack rollup
 # Local package
-npx ./my-package
+npx npm-size ./my-package
 ```
 
 Or install it globally:
