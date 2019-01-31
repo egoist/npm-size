@@ -5545,6 +5545,12 @@ npm-run-path@^2.0.0:
   dependencies:
     path-key "^2.0.0"
 
+npm-size@./npm-size-0.1.1.tgz:
+  version "0.1.1"
+  resolved "./npm-size-0.1.1.tgz#dca61e96163f5ed78c568cfe3e416a96abc038c8"
+  dependencies:
+    zen-observable "^0.8.13"
+
 npm-user-validate@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/npm-user-validate/-/npm-user-validate-1.0.0.tgz#8ceca0f5cea04d4e93519ef72d0557a75122e951"
