@@ -23,6 +23,9 @@ npx npm-size [...package names]
 npx npm-size webpack rollup
 # Local package
 npx npm-size ./my-package
+
+# Exit with error when the size exceeds 5MB
+npx npm-size ./ --limit 5mb
 ```
 
 Or install it globally:

@@ -1281,6 +1281,11 @@ byte-size@^4.0.3:
   resolved "https://registry.npmjs.org/byte-size/-/byte-size-4.0.4.tgz#29d381709f41aae0d89c631f1c81aec88cd40b23"
   integrity sha512-82RPeneC6nqCdSwCX2hZUz3JPOvN5at/nTEw/CMf05Smu3Hrpo9Psb7LjN+k+XndNArG1EY8L4+BM3aTM4BCvw==
 
+bytes@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
+  integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
+
 cac@^6.4.2:
   version "6.4.2"
   resolved "https://registry.npmjs.org/cac/-/cac-6.4.2.tgz#6b2a2ab12619b778b3acc19f97e5298761d9c3de"
