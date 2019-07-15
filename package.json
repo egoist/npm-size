@@ -52,7 +52,10 @@
     "extends": [
       "rem",
       "plugin:prettier/recommended"
-    ]
+    ],
+    "rules": {
+      "unicorn/filename-case": "off"
+    }
   },
   "husky": {
     "hooks": {
