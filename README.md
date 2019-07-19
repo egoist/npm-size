@@ -20,8 +20,6 @@ npm i -g npm-size
 
 ## Usage
 
-One-off usage via `npx`:
-
 ```bash
 npm-size [...package names]
 
