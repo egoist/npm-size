@@ -12,28 +12,32 @@ The "install size" is the size your hard drive will report after running `npm in
 
 <img src="https://unpkg.com/@egoist/media/projects/npm-size/preview.svg" width="500" alt="preview">
 
+## Install
+
+```bash
+npm i -g npm-size
+```
+
 ## Usage
 
 One-off usage via `npx`:
 
 ```bash
-npx npm-size [...package names]
+npm-size [...package names]
 
 # Examples
-npx npm-size webpack rollup
+npm-size webpack rollup
 # Local package
-npx npm-size ./my-package
+npm-size ./my-package
 
 # Exit with error when the size exceeds 5MB
-npx npm-size ./ --limit 5mb
-```
+npm-size ./ --limit 5mb
 
-Or install it globally:
+# Print sizes for the dependencies listed in a package.json
+npm-size ./package.json ./packages/foo/package.json
 
-```bash
-npm i -g npm-size
-
-npm-size react vue
+# Print sizes for the dependencies of a package
+npm-size chalk/package.json
 ```
 
 ## Contributing
